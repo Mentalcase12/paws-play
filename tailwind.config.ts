@@ -61,31 +61,31 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // South African Nature Colors
-        protea: {
-          DEFAULT: "hsl(336 85% 50%)",
-          light: "hsl(336 85% 65%)",
-          dark: "hsl(336 85% 35%)",
+        // Pet Shop Warm Colors
+        amber: {
+          DEFAULT: "hsl(28 90% 55%)",
+          light: "hsl(28 90% 70%)",
+          dark: "hsl(28 90% 40%)",
         },
-        ocean: {
-          DEFAULT: "hsl(183 77% 42%)",
-          light: "hsl(183 77% 55%)",
-          dark: "hsl(183 77% 30%)",
+        teal: {
+          DEFAULT: "hsl(168 55% 45%)",
+          light: "hsl(168 55% 60%)",
+          dark: "hsl(168 55% 32%)",
         },
-        navy: {
-          DEFAULT: "hsl(218 58% 15%)",
-          light: "hsl(218 50% 25%)",
-          dark: "hsl(218 58% 10%)",
+        warmBrown: {
+          DEFAULT: "hsl(30 25% 12%)",
+          light: "hsl(30 20% 20%)",
+          dark: "hsl(30 25% 6%)",
         },
         sand: {
-          DEFAULT: "hsl(38 60% 65%)",
-          light: "hsl(38 60% 80%)",
-          dark: "hsl(38 60% 45%)",
+          DEFAULT: "hsl(35 60% 70%)",
+          light: "hsl(35 60% 85%)",
+          dark: "hsl(35 60% 50%)",
         },
-        veld: {
-          DEFAULT: "hsl(75 40% 45%)",
-          light: "hsl(75 40% 60%)",
-          dark: "hsl(75 40% 30%)",
+        sage: {
+          DEFAULT: "hsl(140 25% 45%)",
+          light: "hsl(140 25% 60%)",
+          dark: "hsl(140 25% 30%)",
         },
       },
       borderRadius: {
@@ -96,17 +96,17 @@ export default {
         "3xl": "2rem",
       },
       boxShadow: {
-        'glow-primary': '0 0 30px hsl(336 85% 50% / 0.4)',
-        'glow-secondary': '0 0 30px hsl(183 77% 42% / 0.4)',
-        'glass': '0 8px 32px hsl(218 58% 5% / 0.4)',
-        'card': '0 4px 20px hsl(218 58% 5% / 0.3)',
-        'card-hover': '0 8px 40px hsl(218 58% 5% / 0.5)',
+        'glow-primary': '0 0 30px hsl(28 90% 55% / 0.4)',
+        'glow-secondary': '0 0 30px hsl(168 55% 45% / 0.4)',
+        'glass': '0 8px 32px hsl(30 25% 3% / 0.5)',
+        'card': '0 4px 20px hsl(30 25% 3% / 0.4)',
+        'card-hover': '0 8px 40px hsl(30 25% 3% / 0.6)',
       },
       backgroundImage: {
-        'gradient-hero': 'linear-gradient(135deg, hsl(218 58% 12%) 0%, hsl(218 50% 18%) 50%, hsl(336 85% 20% / 0.3) 100%)',
+        'gradient-hero': 'linear-gradient(135deg, hsl(30 25% 6%) 0%, hsl(30 20% 12%) 50%, hsl(28 90% 25% / 0.3) 100%)',
         'gradient-radial': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
         'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'shimmer': 'linear-gradient(90deg, transparent 0%, hsl(45 30% 95% / 0.1) 50%, transparent 100%)',
+        'shimmer': 'linear-gradient(90deg, transparent 0%, hsl(35 30% 95% / 0.1) 50%, transparent 100%)',
       },
       keyframes: {
         "accordion-down": {
