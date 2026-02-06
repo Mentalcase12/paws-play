@@ -6,61 +6,61 @@
 
 @layer base {
   :root {
-    /* South African Inspired Palette */
-    --background: 218 58% 15%;
-    --foreground: 45 30% 95%;
+    /* Pet Shop Warm Palette */
+    --background: 30 25% 8%;
+    --foreground: 35 30% 95%;
 
-    --card: 218 50% 18%;
-    --card-foreground: 45 30% 95%;
+    --card: 30 20% 12%;
+    --card-foreground: 35 30% 95%;
 
-    --popover: 218 50% 20%;
-    --popover-foreground: 45 30% 95%;
+    --popover: 30 20% 14%;
+    --popover-foreground: 35 30% 95%;
 
-    /* Protea Deep Pink */
-    --primary: 336 85% 50%;
+    /* Warm Amber Orange - Friendly & Playful */
+    --primary: 28 90% 55%;
     --primary-foreground: 0 0% 100%;
 
-    /* Ocean Turquoise */
-    --secondary: 183 77% 42%;
+    /* Soft Teal - Calming & Natural */
+    --secondary: 168 55% 45%;
     --secondary-foreground: 0 0% 100%;
 
-    /* Sand/Veld Accent */
-    --accent: 38 60% 65%;
-    --accent-foreground: 218 58% 15%;
+    /* Warm Sand Accent */
+    --accent: 35 60% 70%;
+    --accent-foreground: 30 25% 10%;
 
-    --muted: 218 40% 25%;
-    --muted-foreground: 45 20% 70%;
+    --muted: 30 15% 20%;
+    --muted-foreground: 35 20% 65%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 218 40% 30%;
-    --input: 218 40% 25%;
-    --ring: 336 85% 50%;
+    --border: 30 15% 25%;
+    --input: 30 15% 18%;
+    --ring: 28 90% 55%;
 
     --radius: 1rem;
 
     /* Custom Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(218 58% 12%) 0%, hsl(218 50% 18%) 50%, hsl(336 85% 20% / 0.3) 100%);
-    --gradient-primary: linear-gradient(135deg, hsl(336 85% 50%) 0%, hsl(336 85% 40%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(183 77% 42%) 0%, hsl(183 77% 32%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(218 50% 22% / 0.8) 0%, hsl(218 50% 16% / 0.9) 100%);
-    --gradient-glass: linear-gradient(135deg, hsl(218 50% 30% / 0.4) 0%, hsl(218 50% 20% / 0.2) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(30 25% 6%) 0%, hsl(30 20% 12%) 50%, hsl(28 90% 25% / 0.3) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(28 90% 55%) 0%, hsl(28 90% 45%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(168 55% 45%) 0%, hsl(168 55% 35%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(30 20% 16% / 0.8) 0%, hsl(30 20% 10% / 0.9) 100%);
+    --gradient-glass: linear-gradient(135deg, hsl(30 20% 25% / 0.4) 0%, hsl(30 20% 15% / 0.2) 100%);
 
     /* Glass Effect */
-    --glass-bg: hsl(218 50% 25% / 0.6);
-    --glass-border: hsl(45 30% 95% / 0.1);
-    --glass-shadow: 0 8px 32px hsl(218 58% 5% / 0.4);
+    --glass-bg: hsl(30 20% 18% / 0.7);
+    --glass-border: hsl(35 30% 95% / 0.1);
+    --glass-shadow: 0 8px 32px hsl(30 25% 3% / 0.5);
 
     /* Sidebar (keeping for compatibility) */
-    --sidebar-background: 218 58% 12%;
-    --sidebar-foreground: 45 30% 95%;
-    --sidebar-primary: 336 85% 50%;
+    --sidebar-background: 30 25% 6%;
+    --sidebar-foreground: 35 30% 95%;
+    --sidebar-primary: 28 90% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 183 77% 42%;
+    --sidebar-accent: 168 55% 45%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 218 40% 30%;
-    --sidebar-ring: 336 85% 50%;
+    --sidebar-border: 30 15% 25%;
+    --sidebar-ring: 28 90% 55%;
   }
 }
 
@@ -104,23 +104,23 @@
   .btn-primary {
     @apply relative overflow-hidden px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300;
     background: var(--gradient-primary);
-    box-shadow: 0 4px 20px hsl(336 85% 50% / 0.4);
+    box-shadow: 0 4px 20px hsl(28 90% 55% / 0.4);
   }
 
   .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 30px hsl(336 85% 50% / 0.5);
+    box-shadow: 0 8px 30px hsl(28 90% 55% / 0.5);
   }
 
   .btn-secondary {
     @apply relative overflow-hidden px-8 py-4 rounded-xl font-semibold text-white transition-all duration-300;
     background: var(--gradient-secondary);
-    box-shadow: 0 4px 20px hsl(183 77% 42% / 0.4);
+    box-shadow: 0 4px 20px hsl(168 55% 45% / 0.4);
   }
 
   .btn-secondary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 30px hsl(183 77% 42% / 0.5);
+    box-shadow: 0 8px 30px hsl(168 55% 45% / 0.5);
   }
 
   /* Navigation Dropdown Glass */
@@ -269,10 +269,10 @@
 
 @keyframes pulseGlow {
   0%, 100% {
-    box-shadow: 0 0 20px hsl(336 85% 50% / 0.3);
+    box-shadow: 0 0 20px hsl(28 90% 55% / 0.3);
   }
   50% {
-    box-shadow: 0 0 40px hsl(336 85% 50% / 0.6);
+    box-shadow: 0 0 40px hsl(28 90% 55% / 0.6);
   }
 }
 
@@ -291,14 +291,14 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: hsl(218 58% 12%);
+  background: hsl(30 25% 6%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsl(336 85% 50% / 0.5);
+  background: hsl(28 90% 55% / 0.5);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: hsl(336 85% 50% / 0.8);
+  background: hsl(28 90% 55% / 0.8);
 }
